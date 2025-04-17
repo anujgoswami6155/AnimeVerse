@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Enlarged video section */
+  .movie-video-clip-of-30-second {
+    height: 700px; /* increased from 500px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .movie-name-timing-lauch-date {
+    padding: 30px 40px 10px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 12px;
+    margin: 30px 20px 10px;
+    box-shadow: 0 4px 10px rgba(255,255,255,0.05);
+  }
+  
+  .timinglauncheddate {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: #aaa;
+    margin-top: 10px;
+  }
+  
+  .movie-story-in-short-form,
+  .moive-casting-persons,
+  .moive-rating-in-stars-out-of-5 {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  }
+  
+  .textofvoiceactor {
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .casting-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scrollbar-width: thin;
+  }
+  
+  .character-card {
+    flex: 0 0 auto;
+    width: 180px;
+    background-color: #262626;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .character-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .character-pic {
+    width: 120px;
+    height: 120px;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .character-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .character-details {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ccc;
+  }
+  
+  .moive-rating-in-stars-out-of-5 {
+    text-align: center;
+    font-size: 22px;
+    color: gold;
+  }
+  
